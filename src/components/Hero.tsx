@@ -1,4 +1,17 @@
+"use client";
+import { useEffect, useState } from "react";
+
 export default function Hero() {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowButton(true);
+    }, 60000); // 1 minuto = 60000 ms
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <section className="hero" id="home">
       <div className="hero-container">
@@ -19,15 +32,17 @@ export default function Hero() {
               ></iframe>
             </div>
           </div>
-          {/* <div style={{ 
-            width: '100%', 
-            display: 'flex', 
-            justifyContent: 'center'
-          }}>
-            <a href="#pricing" className="btn">Clique aqui</a>
-          </div> */}
+          {showButton && (
+            <div style={{ 
+              width: '100%', 
+              display: 'flex', 
+              justifyContent: 'center'
+            }}>
+              <a href="#pricing" className="btn">Clique aqui</a>
+            </div>
+          )}
         </div>
       </div>
     </section>
-  )
+  );
 }
