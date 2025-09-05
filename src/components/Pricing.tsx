@@ -100,9 +100,10 @@ export default function Pricing() {
             <div className="pricing-features">
               <ul>
                 <li><i className="fas fa-check"></i> Atendimento por videochamada</li>
+                <li><i className="fas fa-check"></i> Acesso ao grupo de tutores</li>
                 <li><i className="fas fa-check"></i> 3 meses de assistência via WhatsApp</li>
                 <li><i className="fas fa-check"></i> Guia de cuidados personalizado</li>
-                <li><i className="fas fa-check"></i> Retorno em 30 dias para ajustes</li>
+                <li><i className="fas fa-check"></i> Lives mensais exclusivas</li>
               </ul>
             </div>
             <div className="pricing-button">

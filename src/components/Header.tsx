@@ -38,7 +38,7 @@ export default function Header() {
         
         <nav className={`nav-links ${isMenuOpen ? 'active' : ''}`} id="navLinks">
           <Link href="#home" onClick={closeMenu}>Início</Link>
-          <Link href="#about" onClick={closeMenu}>Nossa Missão</Link>
+          <Link href="#about" onClick={closeMenu}>Missão</Link>
           <Link href="#drayasmin" onClick={closeMenu}>Fundadora</Link>
           <Link href="#pricing" onClick={closeMenu}>Serviços</Link>
           <Link href="#testimonials" onClick={closeMenu}>Depoimentos</Link>
