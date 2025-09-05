@@ -19,13 +19,13 @@ export default function Hero() {
               ></iframe>
             </div>
           </div>
-          <div style={{ 
+          {/* <div style={{ 
             width: '100%', 
             display: 'flex', 
             justifyContent: 'center'
           }}>
             <a href="#pricing" className="btn">Clique aqui</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
