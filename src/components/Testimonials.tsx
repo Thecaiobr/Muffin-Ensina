@@ -8,7 +8,7 @@ export default function Testimonials() {
       <div className="container">
         <div className="section-title animate-up">
           <h2>O que dizem os tutores</h2>
-          <p>Experiências reais de quem aprendeu a cuidar melhor de seus companheiros</p>
+          {/* <p>Experiências reais de quem aprendeu a cuidar melhor de seus companheiros</p> */}
         </div>
         <div className="testimonial-slider">
           <div className="testimonial-card animate-up delay-1">

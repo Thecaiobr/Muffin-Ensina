@@ -16,11 +16,11 @@ export default function Contact() {
           <div className="contact-content" style={{ flex: 1 }}>
             <div className="section-title animate-left" style={{ textAlign: 'left' }}>
               <h2>Entre em Contato</h2>
-              <p>Tire suas dúvidas ou agende uma consulta</p>
+              <p>Tire suas dúvidass sobre os serviços ou agende uma consultoria</p>
             </div>
             
             <div className="contact-info animate-left" style={{ maxWidth: 400, width: '100%' }}>
-              <h3>Informações de Contato</h3>
+              {/* <h3>Informações de Contato</h3> */}
               <div className="contact-details">
                 <div>
                   <i className="fas fa-phone-alt"></i>

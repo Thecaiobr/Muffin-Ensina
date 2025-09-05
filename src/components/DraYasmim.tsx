@@ -22,7 +22,7 @@ export default function DraYasmim() {
                 <li><i className="fas fa-check"></i> CRMV-MG 33922</li>
                 <li><i className="fas fa-check"></i> Pós-graduanda em Clínica e Cirurgia de Animais Silvestres e Não Convencionais</li>
                 <li><i className="fas fa-check"></i> Membro da Associação Brasileira de Medicina Veterinária em Pets Não Convencionais (ABV PETS)</li>
-                <li><i className="fas fa-check"></i> Mais de 100 vidas transformadas em 4 países por meio do Muffin Ensina</li>
+                <li><i className="fas fa-check"></i> Fundadora do projeto Muffin Ensina, com impacto em mais de 100 tutores e seus animais em 3 países</li>
               </ul>
             </div>
             <a href="#pricing" className="btn" style={{ marginTop: '2rem' }}>Saiba como posso te ajudar</a>
